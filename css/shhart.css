@@ -1,5 +1,5 @@
 .intro{
- background: url(../img/shhart-momo.jpg) bottom center no-repeat #000;
+ background: url(../img/shhart-momo.jpg) top center no-repeat #000;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 background-size: cover;
@@ -10,7 +10,7 @@ background-size: cover;
 
 .intro .intro-body{
     vertical-align:top;
-    padding:8%;
+    padding-top:8%;
     }
 
 h1{
