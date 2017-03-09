@@ -1,0 +1,84 @@
+.intro{
+ background: url(../img/shhart-momo.jpg) bottom center no-repeat #000;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;  
+    height:120%;
+    
+}
+
+.intro .intro-body{
+    vertical-align:top;
+    padding:8%;
+    }
+
+h1{
+    font-family: 'Barrio', cursive;
+    color:black;
+    
+}
+
+
+
+p.intro-text{
+    color:black;   
+}
+
+/*nav bar custom colors*/
+.navbar-custom a {
+    color:#42DCA3; 
+    font-weight:bold;
+    font-size:16px;
+}
+
+.navbar-custom .nav li a:hover {
+  color: #219f70;
+  outline: none;
+  background-color: transparent;
+}
+
+.navbar-custom.top-nav-collapse{
+    background:black;   
+}
+
+.navbar-custom .navbar-toggle{
+    color: #42DCA3;   
+}
+
+.content-section{
+ padding-top:75px;   
+}
+
+/* scrolley down button */
+.btn-circle{
+    color:#42DCA3;
+    border: 2px solid #42DCA3; 
+    background-color: rgba(155, 154, 154, 0.47);
+}
+
+.btn-circle:hover 
+{
+ color:#219f70;   
+}
+
+
+footer p {
+    font-size:16px;   
+}
+
+/* responsive videos */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    margin-bottom:25px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
