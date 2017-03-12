@@ -19,6 +19,7 @@ h1{
     
 }
 
+
 h2{
     font-family: 'Barrio', cursive;
     font-size: 36px;
@@ -86,4 +87,30 @@ footer p {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+
+/*Media queries start here */
+@media screen  and (min-width:200px) and (max-width: 599px){
+h1.brand-heading{
+    margin-top: -25px;   
+}
+
+
+p.intro-text{  
+    margin-top:-20px;
+}
+    
+}
+
+@media screen  and (min-width:768px) and (max-width: 1023px){
+
+.intro .intro-body .brand-heading{
+        
+    font-size:65px;
+    margin-top:20px;
+        
+    }
+    
 }
