@@ -94,7 +94,7 @@ footer p {
 /*Media queries start here */
 @media screen  and (min-width:200px) and (max-width: 599px){
 h1.brand-heading{
-    margin-top: -25px;   
+    margin-top: -45px;   
 }
 
 
